@@ -1,0 +1,17 @@
+{
+  "name": "cyberseal-infosec/dpdp-checklist",
+  "description": "DPDP Act 2023 compliance control categories by Cyber Seal Infosec Solutions",
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://www.thecyberseal.com",
+  "keywords": ["dpdp", "compliance", "data-protection", "cybersecurity"],
+  "authors": [
+    {
+      "name": "Cyber Seal Infosec Solutions",
+      "email": "info@thecyberseal.com",
+      "homepage": "https://www.thecyberseal.com"
+    }
+  ],
+  "autoload": { "psr-4": { "CyberSeal\\Dpdp\\": "src/" } },
+  "require": { "php": ">=7.4" }
+}
